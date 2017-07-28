@@ -1,0 +1,54 @@
+\documentclass[border=10pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{mindmap,shadows}
+\usepackage[hidelinks,pdfencoding=auto]{hyperref}
+
+\begin{document}
+
+\definecolor{textcolor}{rgb}{1.0,0.2,0.3}
+\definecolor{skillcolor}{rgb}{1.0,0.2,0.3}
+\definecolor{hardcolor}{rgb}{0.2,0.2,0.2}
+\definecolor{lancolor}{rgb}{0.2,0.2,0.3}
+\definecolor{packagecolor}{rgb}{0.2,0.3,0.3}
+\tikzset{
+			every node/.style=
+			{
+				concept,circular drop shadow, text=white
+    		}
+    	}
+
+\begin{tikzpicture}
+	[	
+		hard/.style={color=hardcolor,text=textcolor},
+		lan/.style={color=lancolor,text=white},
+		pac/.style={color=packagecolor,text=white},
+		layer2/.style={circle connection bar switch color=from (blue!80) to (magenta)},
+		layer1/.style={circle connection bar switch color=from (red!80) to (black!40)}
+	]
+  	\node  at (5,5)  (CS)[minimum size=4cm, color=skillcolor]{Computer skills};
+  	\node [hard] at (10,10) (cal) {Large calculations};
+  	\node [hard] at (5,10) (AV)[color= green!40] {Data analysis/\\visualization};
+  	\node [hard] at (2,2)  (git) {version control\\git};
+ 	\node [lan]  at (5,10)  (py)  {python};
+ 	\node [lan]  at (5,10)  (fortran)  {FORTRAN};
+ 	\node [lan]  at (5,10)  (cpp)  {C++};
+ 	\node [pac]  at (15,15) (llapack) {llapack};
+ 	\node [pac]  at (15,15) (openMP) {openMP}; 
+ 	\node [pac]  at (15,15) (MPI) {MPI}; 
+ 	\node [pac]  at (15,15) (boost) {boost}; 
+ 	\node [pac]  at (15,15) (np) {numpy\\scipy}; 
+ 	\node [pac]  at (15,15) (scikit) {scikit}; 
+ 	\node [pac]  at (15,15) (plt) {matplotlib}; 
+	\path (CS)  to [layer1] (git);
+	\path (CS)  to [layer1] (cal); 
+	\path (CS)  to [layer1] (AV); 
+	\path (cal) to [layer2] (py);
+	\path (cal) to [layer2] (fortran); 
+	\path (cal) to [layer2] (cpp);
+	\path (AV)  to [layer2] (py); 
+ 
+	%%%% guidelines to positon the objects! 
+ 	\draw[help lines,step=5mm,gray!20] (0,0) grid (20,20); 
+\end{tikzpicture}
+\end{document}
