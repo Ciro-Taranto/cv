@@ -1,0 +1,69 @@
+\definecolor{textcolor}{rgb}{1.0,1.0,1.0}
+\definecolor{skillcolor}{rgb}{0.8,0.2,0.2}
+\definecolor{hardcolor}{rgb}{0.2,0.2,0.2}
+\definecolor{lancolor}{rgb}{0.2,0.2,0.3}
+\definecolor{pycolor}{RGB}{153,204,255}
+\definecolor{packagecolor}{rgb}{0.2,0.3,0.3}
+\def \skillHardDist {7}  
+\def \hardLanDist {5} 
+\def \lanPacDist {4} 
+\tikzset{
+		every node/.style=
+		{
+			concept,circular drop shadow, text=white
+    		}
+    	}
+\resizebox{15cm }{15cm}{%
+\begin{tikzpicture}
+	[	font = \Large,
+		hard/.style={color=hardcolor,text=textcolor, textwidth=4, align=center, minimum size=4cm},
+		lan/.style={color=lancolor,text=white,textwidth=3,align=center, minimum size=3cm},
+		pac/.style={color=packagecolor,text=white,textwidth=2,align=center, minimum size=2cm},
+		gits/.style={color=hardcolor,text=textcolor, textwidth=4, align=center, minimum size=1.5cm},
+		layer0/.style={circle connection bar switch color=from (skillcolor) to (hardcolor)},
+		layer1/.style={circle connection bar switch color=from (hardcolor) to (lancolor)},
+		layer2/.style={circle connection bar switch color=from (lancolor) to (packagecolor)}, 
+		layer1py/.style={circle connection bar switch color=from (hardcolor) to (pycolor)},
+		layer2py/.style={circle connection bar switch color=from (pycolor) to (packagecolor)},
+	]
+	%%POSITIONING THE CENTRAL NODE
+	\node  at (5,5)  (CS)[minimum size=5cm, color=skillcolor, text=textcolor]{\textbf{Computer skills}};
+	%%POSITIONING THE HARD SKILLS NODES%%
+	\path (CS) ++(15:\skillHardDist)  node (cal) [hard] {Large scale \\ calculations}; %this command just define the position
+	\path (CS) ++(105:\skillHardDist)  node (AV)  [hard] {Data analysis/ \\ visualization};
+	\path (CS) ++(235:5.5)  node (git) [gits] {version control \\ git};
+	%%POSITIONING THE PROGRAMMING LANGUAGE NODES%%
+	\path (AV) ++(0:6) node (py) [lan, inner sep = 1cm,color=pycolor, text=white] {\fontsize{14}{11pt}\textbf{python}}; 
+	\path (cal)++(45:\hardLanDist)  node (cpp)[lan] {  {\fontsize{14}{11pt} \textbf{C++}}}; 
+	\path (cal)++(315:\hardLanDist)   node (fortran) [lan] {\textbf{Fortran}};
+	%%POSITIONING THE PACKAGES NODES %%
+	\path (py) ++(135:6.5) node (scikit) [pac] {scikit}; 
+	\path (py) ++(118:6.5) node (pandas) [pac] {pandas}; 
+	\path (py) ++(75:5)  node (np)     [pac,textwidth=1cm] {numpy \\scipy}; 
+	\path (py) ++(30:5)  node (plt)    [pac] {matplotlib};
+	\path (fortran) ++(30:\lanPacDist) node (llapack) [pac] {llapack}; 
+	\path (fortran) ++(315:\lanPacDist)  node (MPI)     [pac] {MPI}; 
+	\path (cpp)    ++(45:\lanPacDist)  node (boost) [pac]{boost}; 
+	\path (cpp)    ++(330:\lanPacDist)   node (openMP)[pac]{openMP}; 
+	%POSITIONING THE CONNECTING PATHS FOR THE HARD SKILLS%%
+	\path (CS)  to [layer0] (git);
+	\path (CS)  to [layer0] (cal); 
+	\path (CS)  to [layer0] (AV);
+	%%POSITIONING THE CONNECTING PATHS FOR THE PROGRAMMING LANGUAGES
+	\path (AV) to [layer1py] (py);	
+	\path (cal) to [layer1] (fortran); 
+	\path (cal) to [layer1] (cpp);
+	\path (cal) to [layer1py] (py);
+	%%POSITIONING THE CONNECTING PATHS FOR THE PACKAGES
+	\path (py) to [layer2py] (scikit); 
+	\path (py) to [layer2py] (np); 
+	\path (py) to [layer2py] (pandas); 
+	\path (py) to [layer2py] (plt); 
+	\path (fortran) to [layer2] (llapack);
+	\path (fortran) to [layer2] (MPI); 
+	\path (cpp) to [layer2] (boost); 
+	\path (cpp) to [layer2] (openMP); 
+	%%%% guidelines to positon the objects! 
+ 	%\draw[help lines,step=5mm,gray!20] (0,0) grid (20,20); 
+\end{tikzpicture}
+}
