@@ -22,7 +22,7 @@
 \familyname{Taranto} % Your last name
 % All information in this block is optional, comment out any lines you don't need
 %\title{Ph.D.}
-\address{Walter-Heller Strasse 18 }{Stuttgart, Germany}
+\address{Walter-Heller Stra\ss e 18 }{Stuttgart, Germany}
 \mobile{+49(0)176 43463243}
 \email{ciro.taranto.ifp@gmail.com}
 \photo[100pt][0.6pt]{img_4200} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
@@ -38,7 +38,6 @@ creating models and understanding data.}
 
 \begin{document}
 \thispagestyle{empty}
-
 \makecvtitle % Print the CV title
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -79,13 +78,13 @@ creating models and understanding data.}
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 \section{Computer Skills}
-\cvitemwithcomment{\textbf{Python}}{ Ideal tool for daily work, in combination with numpy and matplotlib. Recently I started to use pandas and scikit.} 
-\cvitemwithcomment{\textbf{C++}}{ My last two projects are written in C++ using boost and openMP}
-\cvlistitem{}{\textbf{Fortran}. I did my first step in computation with Fortran. I used llapack and MPI parallelization}
-\cvlistitem{}{\textbf{Wolfram Mathematica}. I used Mathematica during my master, and still enjoy it.} 
-\cvlistitem{}{\textbf{git}. I share work with my colleagues using git. } 
-\cvlistitem{}{\textbf{Linux \& iOS}.}
-\cvlistitem{}{\LaTeX, Microsoft Office} 
+\cvitemwithcomment{\textbf{Python}}{}{ Ideal tool for daily work, in combination with numpy and matplotlib. Recently I started to use pandas and scikit.} 
+\cvitemwithcomment{\textbf{C++}}{}{ My last two projects are written in C++ using boost and openMP.}
+\cvitemwithcomment{\textbf{Fortran}}{}{ I did my first step in computation with Fortran. I used llapack and MPI parallelization.}
+\cvitemwithcomment{\textbf{Mathematica}}{}{ I used Mathematica during my master, and still enjoy it.} 
+\cvitemwithcomment{\textbf{git}}{}{ I share work with my colleagues using git. } 
+\cvitemwithcomment{\textbf{Linux \& iOS}}{}{Command line is the way.}
+\cvitemwithcomment{\LaTeX, Microsoft Office}{}{...and whatever else I might need to get the job done.} 
 
 \section{Personal Skills}
 \cvlistitem{Curious and passionate about learning}
@@ -98,20 +97,30 @@ creating models and understanding data.}
 \cvitemwithcomment{English}{Proficient proficency}{}
 \cvitemwithcomment{German}{Independent speaker}{}  
 \cvitemwithcomment{Spanish}{Independent speaker}{}
-
-------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
+
+\section{Scientific results} 
+\cvlistitem{Coauthor of 8 peer reviewed publications}
+\cvlistitem{Active collaborations with more than 30 scientists from Europe, US, Japan and Russia}
+\cvlistitem{Referee for Physical Review since 2012} 
+\subsection{Selected publications}
+\cventry{arXiv:1307.3475}{}{}{}{}{I combine two existing theories to propose a new method for correlated quantum systems.
+I started the implementation of the code in a two-weeks visit to Ekatrinburg.}
+\cventry{arXiv:1112.5003}{}{}{}{In this work, selected as \textit{editor suggestion}, we show }
 
 \section{Interests}
 \cvlistitem{Travelling, visited countries count: 37}
 \cvlistitem{Sport: Marathon runner, climbing, soccer}
 \cvlistitem{Reading}
+
+
 \section{Personal Details}
 \cvitem{DOB}{20th of February, 1987}
-\cvitem{Permanent Address}{Walter-Heller Stra\ss e 18, 70563 Stuttgart, Germany}
-\cvitem{Mobile No.}{+49(0)17643463243}
-\cvitem{Email id}{ciro.taranto.ifp@gmail.com}
+\cvitem{Address}{Walter-Heller Stra\ss e 18, 70563 Stuttgart, Germany}
+\cvitem{Mobile}{+49(0)17643463243}
+\cvitem{Email}{ciro.taranto.ifp@gmail.com}
+\cvitem{Driving licence}{B class} 
 %\cvitem{Social} 
 %{\includegraphics[width=0.6cm,height=0.4cm]{facebook}http://www.facebook.com/ermaheshgaikwad}
 %\hspace{0.9cm}Network \hspace{0.08cm}

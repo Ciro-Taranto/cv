@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.22)  31 JUL 2017 02:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.22)  9 AUG 2017 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -25,19 +25,21 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2015/09/11 v4.06 LaTeX color/graphics driver for XeTeX (TeX Liv
-e/RRM/JK)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-))
+)
+\Gread@gobject=\count80
+)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -108,7 +110,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: xetex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 )
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
@@ -126,15 +128,15 @@ Package graphics Info: Driver file: xetex.def on input line 95.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count80
-\calc@Bcount=\count81
+\calc@Acount=\count81
+\calc@Bcount=\count82
 \calc@Adimen=\dimen104
 \calc@Bdimen=\dimen105
 \calc@Askip=\skip50
 \calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count82
+\calc@Ccount=\count83
 \calc@Cskip=\skip52
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xargs/xargs.sty
@@ -148,25 +150,28 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks15
 \XKV@tempa@toks=\toks16
 )
-\XKV@depth=\count83
+\XKV@depth=\count84
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\xargs@max=\count84
+\xargs@max=\count85
 \xargs@toksa=\toks17
 \xargs@toksb=\toks18
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks19
-\MT@count=\count85
+\MT@count=\count86
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen106
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count86
+\MT@listname@count=\count87
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def
-File: microtype-xetex.def 2013/05/23 v2.5a Definitions specific to xetex (RS)
-LaTeX Info: Redefining \lsstyle on input line 254.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip53
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -180,7 +185,7 @@ tter compatibility patches
 (/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-\bibindent=\skip53
+\bibindent=\skip54
  (./tweaklist.sty)) (/home/ciro/texmf/tex/latex/mypackages/moderncv/moderncvsty
 leciro.sty
 Package: moderncvstyleciro 2012/10/31 v1.2.0 modern curriculum vitae and letter
@@ -189,52 +194,52 @@ Package: moderncvstyleciro 2012/10/31 v1.2.0 modern curriculum vitae and letter
 (/home/ciro/texmf/tex/latex/mypackages/moderncv/moderncvstyleclassic.sty
 Package: moderncvstyleclassic 2012/10/31 v1.2.0 modern curriculum vitae and let
 ter style scheme: classic
-\quotewidth=\skip54
-\hintscolumnwidth=\skip55
-\separatorcolumnwidth=\skip56
-\maincolumnwidth=\skip57
-\doubleitemmaincolumnwidth=\skip58
-\listitemsymbolwidth=\skip59
+\quotewidth=\skip55
+\hintscolumnwidth=\skip56
+\separatorcolumnwidth=\skip57
+\maincolumnwidth=\skip58
+\doubleitemmaincolumnwidth=\skip59
+\listitemsymbolwidth=\skip60
 LaTeX Font Info:    Try loading font information for U+mvs on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-\listitemmaincolumnwidth=\skip60
-\listdoubleitemmaincolumnwidth=\skip61
-\makecvtitlenamewidth=\skip62
-\baseletterheight=\skip63
+\listitemmaincolumnwidth=\skip61
+\listdoubleitemmaincolumnwidth=\skip62
+\makecvtitlenamewidth=\skip63
+\baseletterheight=\skip64
 \cvitemwithcommentmainbox=\box26
-\cvitemwithcommentmainlength=\skip64
-\cvitemwithcommentcommentlength=\skip65
+\cvitemwithcommentmainlength=\skip65
+\cvitemwithcommentcommentlength=\skip66
 )
 \footerbox=\box27
 \footertempbox=\box28
-\footerwidth=\skip66
-\footerboxwidth=\skip67
+\footerwidth=\skip67
+\footerboxwidth=\skip68
 )
-(/home/ciro/texmf/tex/latex/mypackages/moderncv/moderncvcolorblue.sty
-Package: moderncvcolorblue 2012/10/31 v1.2.0 modern curriculum vitae and letter
- color scheme: blue
+(/home/ciro/texmf/tex/latex/mypackages/moderncv/moderncvcolorgreen.sty
+Package: moderncvcolorgreen 2012/10/31 v1.2.0 modern curriculum vitae and lette
+r color scheme: green
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count87
+\c@lips@count=\count88
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count88
+\c@tracingmulticols=\count89
 \mult@box=\box29
 \multicol@leftmargin=\dimen107
-\c@unbalance=\count89
-\c@collectmore=\count90
-\doublecol@number=\count91
-\multicoltolerance=\count92
-\multicolpretolerance=\count93
+\c@unbalance=\count90
+\c@collectmore=\count91
+\doublecol@number=\count92
+\multicoltolerance=\count93
+\multicolpretolerance=\count94
 \full@width=\dimen108
 \page@free=\dimen109
 \premulticols=\dimen110
 \postmulticols=\dimen111
-\multicolsep=\skip68
-\multicolbaselineskip=\skip69
+\multicolsep=\skip69
+\multicolbaselineskip=\skip70
 \partial@page=\box30
 \last@line=\box31
 \maxbalancingoverflow=\dimen112
@@ -259,14 +264,14 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \@tempa=\box50
 \@tempa=\box51
 \@tempa=\box52
-\c@columnbadness=\count94
-\c@finalcolumnbadness=\count95
+\c@columnbadness=\count95
+\c@finalcolumnbadness=\count96
 \last@try=\dimen113
 \multicolovershoot=\dimen114
 \multicolundershoot=\dimen115
 \mult@nat@firstbox=\box53
 \colbreak@box=\box54
-\mc@col@check@num=\count96
+\mc@col@check@num=\count97
 )
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
@@ -277,7 +282,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
@@ -286,9 +291,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count97
-\Gm@cntv=\count98
-\c@Gm@tempcnt=\count99
+\Gm@cnth=\count98
+\Gm@cntv=\count99
+\c@Gm@tempcnt=\count100
 \Gm@bindingoffset=\dimen116
 \Gm@wd@mp=\dimen117
 \Gm@odd@mp=\dimen118
@@ -326,10 +331,9 @@ Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -352,13 +356,13 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen124
-\Hy@linkcounter=\count100
-\Hy@pagecounter=\count101
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count102
+\Hy@SavedSpaceFactor=\count103
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -375,10 +379,10 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count103
+\c@Hy@tempcnt=\count104
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen125
-\Fld@menulength=\count104
+\Fld@menulength=\count105
 \Field@Width=\dimen126
 \Fld@charsize=\dimen127
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -390,36 +394,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count105
-\c@Item=\count106
-\c@Hfootnote=\count107
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
 )
 
-Package hyperref Message: Driver (autodetected): hxetex.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box55
-\c@Hy@AnnotLevel=\count108
-\HyField@AnnotCount=\count109
-\Fld@listcount=\count110
-\c@bookmark@seq@number=\count111
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip71
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 39.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 39.
@@ -447,12 +439,44 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 39.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen128
+\scratchbox=\box55
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen129
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Info: Redefining \microtypecontext on input line 39.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of spacing.
-Package microtype Info: No adjustment of kerning.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
@@ -469,9 +493,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -510,7 +534,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count112
+\c@section@level=\count117
 )
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
@@ -520,79 +544,99 @@ LaTeX Info: Redefining \nameref on input line 39.
 \@outlinefile=\write4
 \openout4 = `Ciro_Taranto_CV.out'.
 
-\pagenumberwidth=\skip71
+\pagenumberwidth=\skip72
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 39.
 \makecvtitlepicturebox=\box57
-File: img_4200.jpg Graphic file (type QTm)
- <use  "img_4200.jpg" >
-\makecvtitlepicturewidth=\skip72
 
-Overfull \hbox (10.60408pt too wide) in paragraph at lines 42--42
-[]\T1/lmss/m/n/10.95 ciro.taranto.ifp@gmail.com 
+<MPI_Ciro_Taranto.jpeg, id=41, 45.0483pt x 60.225pt>
+File: MPI_Ciro_Taranto.jpeg Graphic file (type jpg)
+
+<use MPI_Ciro_Taranto.jpeg>
+Package pdftex.def Info: MPI_Ciro_Taranto.jpeg used on input line 41.
+(pdftex.def)             Requested size: 100.0pt x 133.6937pt.
+\makecvtitlepicturewidth=\skip73
+
+Overfull \hbox (8.1689pt too wide) in paragraph at lines 41--41
+[]\T1/lmss/m/n/10.95 (-20) ciro.taranto.ifp@gmail.com 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 42.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 41.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 42.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 41.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 41.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 42.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 41.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 42.
+(Font)              <10.95> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 42.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 42.
+(Font)              <6> on input line 41.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 82.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 81.
 
-Overfull \hbox (3.18591pt too wide) in paragraph at lines 85--85
+Overfull \hbox (3.18591pt too wide) in paragraph at lines 84--84
  [][]\T1/lmss/bx/n/10.95 Mathematica[]|
  []
 
-[1
-
-] (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 120.
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./MPI_Ciro_Taranto.jpeg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 127.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 120.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 127.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./Ciro_Taranto_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package rerunfilecheck Info: File `Ciro_Taranto_CV.out' has not changed.
+(rerunfilecheck)             Checksum: BCB99F4CE493E77A45E27D6534F695E6;1035.
  ) 
 Here is how much of TeX's memory you used:
- 11705 strings out of 493638
- 170133 string characters out of 6146796
- 384547 words of memory out of 5000000
- 14949 multiletter control sequences out of 15000+600000
- 51154 words of font info for 41 fonts, out of 8000000 for 9000
- 1328 hyphenation exceptions out of 8191
+ 12297 strings out of 493029
+ 179223 string characters out of 6136234
+ 406997 words of memory out of 5000000
+ 15613 multiletter control sequences out of 15000+600000
+ 56133 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
  46i,12n,67p,781b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/marvosym/marvosym.pfb>
+Output written on Ciro_Taranto_CV.pdf (2 pages, 183292 bytes).
+PDF statistics:
+ 98 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 21582 words of extra memory for PDF output out of 24883 (max. 10000000)
 
-Output written on Ciro_Taranto_CV.pdf (2 pages).
