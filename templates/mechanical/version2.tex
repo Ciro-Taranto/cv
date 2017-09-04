@@ -1,5 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[11pt,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+%\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 
 \moderncvstyle{ciro} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -8,8 +9,7 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage{multicol}
 \usepackage{comment}
-
-\usepackage[scale=0.75]{geometry} % Reduce document margins
+\usepackage[scale=0.85]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -26,8 +26,7 @@
 \mobile{+49(0)176 43463243}
 \email{ciro.taranto.ifp@gmail.com}
 \photo[100pt][0.6pt]{MPI_Ciro_Taranto} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{I am a physicist, with theoretical and computational background. I am curious, and passionate about uncovering patterns,
-creating models and understanding data.}
+\quote{Theoretical Physicist, transitioning to Data Science}
 \indirizzo{ciro.taranto.ifp@gmail.com \\
 	   +49(0)~176~434~63~243 \\
 	   Walter-Heller~Stra\ss e 18,\\
@@ -45,19 +44,51 @@ creating models and understanding data.}
 
 
 
+%\begin{minipage}{0.49\textwidth}
+%I did th
+%	\end{minipage}
+
+
 
  %\begin{Parallel}[v]{0.49\textwidth}{0.49\textwidth}    
 %\ParallelLText{ 
-\section{Carrer}
-\cventry{2015-2017}{Postdoc}{Max Planck Institute for Solid State Research}{Stuttgart}{}
-{I am managing independent research. I co-supervise a Ph.D. student.}
-\cventry{2014-2015}{Postdoc}{Vienna University of Technology}{Vienna}{}
-{I am performing large-scale numerical calculation and analysing the data.}
-%}
-%\ParallelRText{
+\section{Carreer}
+\begin{minipage}{0.35\textwidth}
+\centering{
+2015--now  \textbf{Postdoc} \\
+\vspace{0.15cm}
+\textit{Max Planck Institute for solid state research}, \\
+Stuttgart}
+\\
+\vspace{.7cm}
+\centering{
+2014--2015 
+\textbf{Postdoc} \\
+\vspace{0.15cm}
+2010--2014 \textbf{PhD} (\textit{cum laude})
+\\
+\vspace{0.15cm}
+\textit{Vienna University of Technology} }
+\end{minipage}
+\begin{minipage}{0.65\textwidth}
+\cvlistitem{Performing independent research.}
+\cvlistitem{Writing scientifical papers.}
+\cvlistitem{Presenting scientific results.}
+\cvlistitem{International collaborations.}
+\cvlistitem{Mathematical modeling.}
+\cvlistitem{Developing codes for numerical simulations.}
+\cvlistitem{Data analys of numerical simulations.} 
+\cvlistitem{Managing different projects.} 
+\cvlistitem{Daily supervision of a PhD student (2015-now).}
+\cvlistitem{Daily supervision of a Master student (until 2014).}
+\cvlistitem{Teaching experiences.}
+\end{minipage}
+%\vspace{0.5 cm}
+\\ 
+%\begin{minipage}{0.22\textwidth}
+
 \section{Education}
-\cventry{2010--2014}{Ph.D. in Theoretical physics}{TU Wien}{Vienna}{\emph{cum laude}}
-{I apply numerical methods to condensed matter physics, I co-supervise a master student.} 
+%\cventry{2010--2014}{Ph.D. in Theoretical physics}{TU Wien}{Vienna}{\emph{cum laude}} 
 \cventry{2008--2010}{Master in Theoretical physics}{University of Bari}{Bari}{110/110 \emph{cum laude}, awarderd as best physics student of the year}
 {I study theoretical physics. I enjoy physics and mathematics.}  % Arguments not required can be left empty
 \cventry{2005--2008}{Bachelor in Physics}{University di Bari}{Bari}{110/110 \emph{cum laude}}
@@ -67,31 +98,25 @@ creating models and understanding data.}
 %}
 %\ParallelPar
 %\end{Parallel}
+\section{Personal Skills}
+\cvlistitem{Currently studying Machine Learning.} 
+\cvlistitem{Curious and passionate about learning}
+\cvlistitem{Determined.}
 
-%------------------------------------------------
-
-%----------------------------------------------------------------------------------------
-%	AWARDS SECTION
-%----------------------------------------------------------------------------------------
-
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
 \section{Computer Skills}
 \cvitemwithcomment{\textbf{Python}}{}{ My ideal working tool. I use numpy, matplotlib and, recently, pandas and scikit.} 
 \cvitemwithcomment{\textbf{C++}}{}{ My last two projects are written in C++ using boost and openMP.}
 \cvitemwithcomment{\textbf{Fortran}}{}{ My first steps in computation were in Fortran. I used llapack and MPI parallelization.}
 \cvitemwithcomment{\textbf{Mathematica}}{}{ I used Mathematica during my master, and still enjoy it.} 
-\cvitemwithcomment{\textbf{git}}{}{ I share work with my colleagues using git. } 
+\cvitemwithcomment{\textbf{git}}{}{ I share work with my colleagues 		 git. } 
 \cvitemwithcomment{\textbf{Linux \& iOS}}{}{Command line is the way.}
 \cvitemwithcomment{\LaTeX, Office}{}{...and whatever else I might need to get the job done.} 
 
-\section{Personal Skills}
-\cvlistitem{Curious and passionate about learning}
-\cvlistitem{Determined.}
+\subsection{Charcther higlights}
 \cvlistitem{Objective driven.}
 \cvlistitem{Intuitive.}
 \cvlistitem{Social and communicative.}
+
 \section{Language Skills}
 \cvitemwithcomment{Italian}{Mothertongue}{}
 \cvitemwithcomment{English}{Proficient proficency}{}
