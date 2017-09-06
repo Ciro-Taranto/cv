@@ -27,7 +27,7 @@
 \mobile{+49(0)176 43463243}
 \email{ciro.taranto.ifp@gmail.com}
 \photo[100pt][0.6pt]{MPI_Ciro_Taranto} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{Theoretical Physicist, transitioning to Data Science}
+\quote{\textcolor{color2} {\begin{flushleft} Theoretical Physicist \end{flushleft}},\\ \textcolor{color1}{ transitioning to Data Science}}
 \indirizzo{ciro.taranto.ifp@gmail.com \\
 	   +49(0)~176~434~63~243 \\
 	   Walter-Heller~Stra\ss e 18,\\
@@ -124,12 +124,12 @@
 \cvlistitem{Excellent mathematical and analytical skills.}
 \cvlistitem{Fast and independent learner.}
 \cvlistitem{Very good team worker...}
-\cvlistitem{...able to play a lead role.}
 \end{minipage}
 \begin{minipage}{0.48\textwidth}
 \cvlistitem{Objective driven.}
 \cvlistitem{Very intuitive.}
-\cvlistitem{Social and communicative.} 
+\cvlistitem{Social and communicative.}
+\cvlistitem{...ready to play a lead role.}		
 \end{minipage}
 
 
